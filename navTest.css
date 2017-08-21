@@ -1,0 +1,134 @@
+body{
+	max-width:100%;
+	transition:All 0.4s ease-in-out;
+	-webkit-transition:All 0.4s ease-in-out;
+	-moz-transition:All 0.4s ease-in-out; 
+	-o-transition:All 0.4s ease-in-out;
+	height:100%;
+	margin:0;
+	font-family: 'Helvetica', sans-serif;
+	background:#00ffbb;
+}
+#header{
+	position: fixed;
+	left: 0;
+	overflow: hidden;
+	width: 200px;
+	height: 100%;
+	text-align: center;
+	background-color: #f072a1;
+}
+#logo{
+	margin-top:30px;
+}
+
+.nav{
+	padding:10px 0;
+}
+.nav ul{
+	list-style-type:none;
+	padding:0px;
+	background:#f072a1;
+}
+.nav ul li{
+	margin:5px 0;
+	padding:0;
+}
+.nav ul li a{
+	transition:All 0.2s ease-in-out;
+	-webkit-transition:All 0.2s ease-in-out;
+	-moz-transition:All 0.2s ease-in-out; 
+	-o-transition:All 0.2s ease-in-out;
+	font-family: 'Tahoma', sans-serif;
+	width:100%;
+	display:block;
+	font-size:20px;
+	text-decoration:none;
+	color:#fff;
+}
+.nav ul li .active, .nav ul li a:hover{
+	color:#333333;
+	background:#00ffbb;
+}
+.des{
+	margin:10px 20px;
+	text-align:left;
+}
+#footer{
+	position: absolute;
+	bottom: 10px;
+	left: 0;
+}
+#main{
+	margin-left:200px;
+	text-align: center;
+}
+#main ul{
+	list-style-type:none;
+	width:100%;
+	margin:0;
+	padding-top:5%;
+	padding-left:10%;
+	padding-right:10%;
+}
+#main ul li{
+	margin:0;
+	padding:0;
+}
+#main ul li img{
+	transition:All 0.4s ease-in-out;
+	-webkit-transition:All 0.4s ease-in-out;
+	-moz-transition:All 0.4s ease-in-out; 
+	-o-transition:All 0.4s ease-in-out;
+	width:100%;
+	margin:0;
+	cursor: pointer;
+}
+#main ul li img:hover{
+	-webkit-transform: scale(1.02);
+	-ms-transform:scale(1.02);
+	transform: scale(1.02);
+	box-shadow:-5px -5px 5px #333333;
+	z-index:100;
+}
+
+
+
+.pic{
+	max-width:100%;
+}
+.inner{
+	max-width:600px;
+	margin:0px auto;
+}
+.carousel-indicators li {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	margin: 1px;
+	text-indent: -999px;
+	cursor: pointer;
+	background-color: rgba(0,0,0,0);
+	border: 1px solid #fff;
+	border-radius: 10px;
+}
+
+.carousel{
+	width:50%;
+	margin:0 auto;
+ }
+.carouselpic{margin:0 auto;}
+.carousel-control{position: absolute;
+top: 45%;
+z-index: 5;}
+.carousel-control{
+	bottom:auto;
+	font-size:30px;
+}
+.videoCenter{
+	max-width:100%;
+}
+
+.myMedia{
+	max-width:100%;
+}

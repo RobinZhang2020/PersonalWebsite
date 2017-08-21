@@ -1,0 +1,66 @@
+.icon{
+	-webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+	display: block;
+	position: relative;
+	width: 35%;
+	height: 0;
+	padding-bottom: 35%;
+	margin: 0 auto;
+	background: #3480a3;
+	box-shadow: inset 3px 2px 6px rgb(0, 0,0,0), 0 0 0 3px #6ca4bd;
+	border-radius: 50%;
+}
+.icon:before{
+	-webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+	content: ' ';
+	position: absolute;
+	top: -8px;
+	left: -8px;
+	right: -8px;
+	bottom: -8px;
+	border: 1px solid #316480;
+	border-radius: 50%;
+}
+
+.icon img{
+	border: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 70%;
+	-webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+	-webkit-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+}
+
+.icon:hover, .icon:active{
+	background: rgb(52,128,163,0.7);
+	box-shadow: inset 3px 2px 6px rgb(0, 0,0,0.25), 0 0 0 5px #6ca4bd;
+}
+.icon:hover:before, .icon:active:before{
+	top: -12px;
+	left: -12px;
+	right: -12px;
+	bottom: -12px;
+	border: 3px solid #316480;
+}
+.icon:hover img, .icon:active img{
+	width:64%;
+}
+
+/*@media (min-width: 768px){*/
+/*	.icon: hover, .icon:active{*/
+/*		box-shadow: inset 3px 2px 6px rgb(0,0,0,0.25), 0 0 0 10px #6ca4bd;*/
+/*	}*/
+/*	.icon:hover:before, .icon:active:before{*/
+/*		top: -20px;*/
+/*		left: -20px;*/
+/*		right: -20px;*/
+/*		bottom: -20px;*/
+/*		border: 4px solid #316480;*/
+/*	}*/
+/*}*/
